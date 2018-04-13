@@ -1,249 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[Navigation to :http://automationpractice.com/index.php]]>
-    </line>
-    <line>
-      <![CDATA[Navigated to :http://automationpractice.com/index.php]]>
-    </line>
-    <line>
-      <![CDATA[Finding the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]>
-    </line>
-    <line>
-      <![CDATA[Found the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]>
-    </line>
-    <line>
-      <![CDATA[Finding the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]>
-    </line>
-    <line>
-      <![CDATA[Found the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on :Sign in]]>
-    </line>
-    <line>
-      <![CDATA[[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on :[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
-    </line>
-    <line>
-      <![CDATA[[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
-    </line>
-    <line>
-      <![CDATA[Finding the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='email']]]>
-    </line>
-    <line>
-      <![CDATA[Found the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='email']]]>
-    </line>
-    <line>
-      <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']] before any changes made]]>
-    </line>
-    <line>
-      <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']][Ljava.lang.CharSequence;@1890516e]]>
-    </line>
-    <line>
-      <![CDATA[Element value changed to: [[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']]]]>
-    </line>
-    <line>
-      <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']][Ljava.lang.CharSequence;@1890516e]]>
-    </line>
-    <line>
-      <![CDATA[Finding the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='passwd']]]>
-    </line>
-    <line>
-      <![CDATA[Found the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='passwd']]]>
-    </line>
-    <line>
-      <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']] before any changes made]]>
-    </line>
-    <line>
-      <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']][Ljava.lang.CharSequence;@42e25b0b]]>
-    </line>
-    <line>
-      <![CDATA[Element value changed to: [[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']]]]>
-    </line>
-    <line>
-      <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']][Ljava.lang.CharSequence;@42e25b0b]]>
-    </line>
-    <line>
-      <![CDATA[Finding the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='SubmitLogin']]]>
-    </line>
-    <line>
-      <![CDATA[Found the element :]]>
-    </line>
-    <line>
-      <![CDATA[By.xpath: //*[@id='SubmitLogin']]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on :Sign in]]>
-    </line>
-    <line>
-      <![CDATA[[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on :[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]]]>
-    </line>
-    <line>
-      <![CDATA[[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37116" started-at="2018-04-10T07:24:13Z" finished-at="2018-04-10T07:24:51Z">
+  <suite name="Default suite" duration-ms="73" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37116" started-at="2018-04-10T07:24:13Z" finished-at="2018-04-10T07:24:51Z">
-      <class name="selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener@6a41eaa2]" name="setUp" is-config="true" duration-ms="8214" started-at="2018-04-10T07:24:13Z" finished-at="2018-04-10T07:24:22Z">
+    <test name="Default test" duration-ms="73" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+      <class name="testNG_Concepts_For_Selenium_1.testNG.Annotations">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="beforesuite" is-config="true" duration-ms="16" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testEventListener()[pri:0, instance:selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener@6a41eaa2]" name="testEventListener" duration-ms="28878" started-at="2018-04-10T07:24:22Z" finished-at="2018-04-10T07:24:51Z">
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
           <reporter-output>
-            <line>
-              <![CDATA[Navigation to :http://automationpractice.com/index.php]]>
-            </line>
-            <line>
-              <![CDATA[Navigated to :http://automationpractice.com/index.php]]>
-            </line>
-            <line>
-              <![CDATA[Finding the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]>
-            </line>
-            <line>
-              <![CDATA[Found the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]>
-            </line>
-            <line>
-              <![CDATA[Finding the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]>
-            </line>
-            <line>
-              <![CDATA[Found the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on :Sign in]]>
-            </line>
-            <line>
-              <![CDATA[[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on :[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
-            </line>
-            <line>
-              <![CDATA[[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]]]>
-            </line>
-            <line>
-              <![CDATA[Finding the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='email']]]>
-            </line>
-            <line>
-              <![CDATA[Found the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='email']]]>
-            </line>
-            <line>
-              <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']] before any changes made]]>
-            </line>
-            <line>
-              <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']][Ljava.lang.CharSequence;@1890516e]]>
-            </line>
-            <line>
-              <![CDATA[Element value changed to: [[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']]]]>
-            </line>
-            <line>
-              <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']][Ljava.lang.CharSequence;@1890516e]]>
-            </line>
-            <line>
-              <![CDATA[Finding the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='passwd']]]>
-            </line>
-            <line>
-              <![CDATA[Found the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='passwd']]]>
-            </line>
-            <line>
-              <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']] before any changes made]]>
-            </line>
-            <line>
-              <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']][Ljava.lang.CharSequence;@42e25b0b]]>
-            </line>
-            <line>
-              <![CDATA[Element value changed to: [[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']]]]>
-            </line>
-            <line>
-              <![CDATA[Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']][Ljava.lang.CharSequence;@42e25b0b]]>
-            </line>
-            <line>
-              <![CDATA[Finding the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='SubmitLogin']]]>
-            </line>
-            <line>
-              <![CDATA[Found the element :]]>
-            </line>
-            <line>
-              <![CDATA[By.xpath: //*[@id='SubmitLogin']]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on :Sign in]]>
-            </line>
-            <line>
-              <![CDATA[[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on :[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]]]>
-            </line>
-            <line>
-              <![CDATA[[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- testEventListener -->
-      </class> <!-- selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="test1" duration-ms="7" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="test2" duration-ms="3" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testNG_Concepts_For_Selenium_1.testNG.Annotations@1e88b3c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-04-13T08:04:34Z" finished-at="2018-04-13T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNG_Concepts_For_Selenium_1.testNG.Annotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

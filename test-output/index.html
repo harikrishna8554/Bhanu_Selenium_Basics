@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Harikrishna\AppData\Local\Temp\testng-eclipse--795264374\testng-customsuite.xml</span>
+                    <span>C:\Users\Harikrishna\AppData\Local\Temp\testng-eclipse--1329326234\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener" hash-for-method="testEventListener">testEventListener</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG_Concepts_For_Selenium_1.testNG.Annotations" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG_Concepts_For_Selenium_1.testNG.Annotations" hash-for-method="test2">test2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +125,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener</span>
+              <span class="class-name">testNG_Concepts_For_Selenium_1.testNG.Annotations</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testEventListener">
-                  </a> <!-- testEventListener -->
-                  <span class="method-name">testEventListener</span>
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Harikrishna\AppData\Local\Temp\testng-eclipse--795264374\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Harikrishna\AppData\Local\Temp\testng-eclipse--1329326234\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +156,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener&quot;/&gt;
+      &lt;class name=&quot;testNG_Concepts_For_Selenium_1.testNG.Annotations&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testEventListener')
-data.setCell(0, 2, 'selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener')
-data.setCell(0, 3, 28878);
+data.setCell(0, 1, 'test1')
+data.setCell(0, 2, 'testNG_Concepts_For_Selenium_1.testNG.Annotations')
+data.setCell(0, 3, 7);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test2')
+data.setCell(1, 2, 'testNG_Concepts_For_Selenium_1.testNG.Annotations')
+data.setCell(1, 3, 3);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 10 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -204,49 +220,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testEventListener</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Navigation to :http://automationpractice.com/index.php</span>
-                <span class="reporter-method-output">Navigated to :http://automationpractice.com/index.php</span>
-                <span class="reporter-method-output">Finding the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a</span>
-                <span class="reporter-method-output">Found the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a</span>
-                <span class="reporter-method-output">Finding the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a</span>
-                <span class="reporter-method-output">Found the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a</span>
-                <span class="reporter-method-output">Clicking on :Sign in</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]</span>
-                <span class="reporter-method-output">Clicked on :[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a]</span>
-                <span class="reporter-method-output">Finding the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='email']</span>
-                <span class="reporter-method-output">Found the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='email']</span>
-                <span class="reporter-method-output">Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']] before any changes made</span>
-                <span class="reporter-method-output">Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']][Ljava.lang.CharSequence;@1890516e</span>
-                <span class="reporter-method-output">Element value changed to: [[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']]</span>
-                <span class="reporter-method-output">Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='email']][Ljava.lang.CharSequence;@1890516e</span>
-                <span class="reporter-method-output">Finding the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='passwd']</span>
-                <span class="reporter-method-output">Found the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='passwd']</span>
-                <span class="reporter-method-output">Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']] before any changes made</span>
-                <span class="reporter-method-output">Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']][Ljava.lang.CharSequence;@42e25b0b</span>
-                <span class="reporter-method-output">Element value changed to: [[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']]</span>
-                <span class="reporter-method-output">Value of the:[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='passwd']][Ljava.lang.CharSequence;@42e25b0b</span>
-                <span class="reporter-method-output">Finding the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='SubmitLogin']</span>
-                <span class="reporter-method-output">Found the element :</span>
-                <span class="reporter-method-output">By.xpath: //*[@id='SubmitLogin']</span>
-                <span class="reporter-method-output">Clicking on :Sign in</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]</span>
-                <span class="reporter-method-output">Clicked on :[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on XP (3cb8760b-4ad9-4779-bf9d-0019eec2d238)] -> xpath: //*[@id='SubmitLogin']]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -262,15 +235,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">selenium_Advance_video.Web_Event_Listener_InSelenium_Video1_2_10p.TestEventListener</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp</span>
+              <div class="chronological-class-name">testNG_Concepts_For_Selenium_1.testNG.Annotations</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforesuite</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testEventListener</span>
-                <span class="method-start">8231 ms</span>
+                <span class="method-name">test1</span>
+                <span class="method-start">67 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">91 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
