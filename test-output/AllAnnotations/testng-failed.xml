@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AllAnnotations]">
+  <test thread-count="5" name="DependsOnTest(failed)">
+    <classes>
+      <class name="testNG_Concepts_For_Selenium_1.testNG.DependsOnTest">
+        <methods>
+          <include name="test2"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testNG_Concepts_For_Selenium_1.testNG.DependsOnTest -->
+    </classes>
+  </test> <!-- DependsOnTest(failed) -->
+</suite> <!-- Failed suite [AllAnnotations] -->

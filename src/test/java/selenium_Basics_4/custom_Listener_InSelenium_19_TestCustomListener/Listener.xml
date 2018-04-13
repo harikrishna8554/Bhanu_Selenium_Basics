@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Listener Suite">
+<listeners>
+<listener class-name="selenium_Basics_4.custom_Listener_InSelenium_19_customListener.Listener_In_Selenium"></listener>
+</listeners>
+  <test  name="Test">
+    <classes>
+      <class name="selenium_Basics_4.custom_Listener_InSelenium_19_TestCustomListener.Login"/>
+    </classes>
+  </test> 
+</suite> 
+
+
+<!-- In framework, Listeners can be executed only through xml file. -->

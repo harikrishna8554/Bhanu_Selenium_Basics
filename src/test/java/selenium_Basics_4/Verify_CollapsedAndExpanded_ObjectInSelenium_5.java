@@ -1,0 +1,47 @@
+package selenium_Basics_4;
+
+import static org.testng.Assert.assertTrue;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class Verify_CollapsedAndExpanded_ObjectInSelenium_5 {
+	WebDriver d;
+	@Test
+	public void testCollapsedAndExpanded() throws Exception
+	{
+		
+		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
+		d=new FirefoxDriver();
+		
+		d.get("https://www.hdfcbank.com/htdocs/nri_banking/payments/BillPay/BillPay.htm");
+		String bg_status = d.findElement(By.xpath("//h3[contains(text(),'Electricity and Telephone Bills')]")).getCssValue("background-image");
+		System.out.println(bg_status);
+		if(bg_status.contains("bg_collapsed_panel"))
+		{
+			assertTrue(true, bg_status);
+		}else
+		{
+			assertTrue(false, bg_status);
+		}
+		d.findElement(By.xpath("//h3[contains(text(),'Electricity and Telephone Bills')]")).click();
+		Thread.sleep(5000);
+		bg_status = d.findElement(By.xpath("//h3[contains(text(),'Electricity and Telephone Bills')]")).getCssValue("background-image");
+		System.out.println(bg_status);
+		if(bg_status.contains("bg_expanded_panel"))
+		{
+			assertTrue(true, bg_status);
+		}else
+		{
+			assertTrue(false, bg_status);
+		}
+		
+		Thread.sleep(5000);
+		d.quit();
+
+		
+		
+	}
+}

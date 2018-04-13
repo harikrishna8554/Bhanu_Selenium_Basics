@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="selenium_Advance_video.How_To_Handel_Dynamic_Table_In_Selenium_Video_1_2___3p">
+        <methods>
+          <include name="testHandel_Dynamic_Table_In_Selenium"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- selenium_Advance_video.How_To_Handel_Dynamic_Table_In_Selenium_Video_1_2___3p -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

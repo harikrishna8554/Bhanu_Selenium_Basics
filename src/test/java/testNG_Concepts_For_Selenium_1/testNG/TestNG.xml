@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AllAnnotations">
+	<test name="AllAnnotations">
+		<classes>
+			<class name="testNG_Concepts_For_Selenium_1.testNG.Annotations"></class>
+		</classes>
+	</test>
+
+	<test name="Groups">
+		<groups>
+			<run>
+				<include name="regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG_Concepts_For_Selenium_1.testNG.GroupTest"></class>
+		</classes>
+	</test>
+	<test name="DependsOnTest">
+		<classes>
+			<class name="testNG_Concepts_For_Selenium_1.testNG.DependsOnTest"></class>
+		</classes>
+	</test>
+
+	<test name="parametersTest">
+		<parameter name="userName" value="userIsHari"></parameter>
+		<parameter name="password" value="password123"></parameter>
+		<classes>
+			<class name="testNG_Concepts_For_Selenium_1.testNG.ParametersInTestNG"></class>
+		</classes>
+	</test>
+
+	<test name="dataProvider">
+
+		<classes>
+			<class name="testNG_Concepts_For_Selenium_1.testNG.DataProviderTest"></class>
+		</classes>
+	</test>
+
+	<test name="enableOrdisableTest">
+		<classes>
+			<class name="testNG_Concepts_For_Selenium_1.testNG.EnableAndDisableTest"></class>
+		</classes>
+	</test>
+	<test name="TestDataProvider">
+		<classes>
+			<class name="testNG_Concepts_For_Selenium_1.testNG.TestDataProvider" />
+		</classes>
+	</test>
+
+</suite>
