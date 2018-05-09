@@ -21,7 +21,7 @@ public class MouseOver_In_Selenium_6 {
 		//un-wanted pop-up
 		d.findElement(By.xpath("//div[@class='mCRfo9']/div/div/button")).click();
 		Actions act=new Actions(d);
-		act.moveToElement(babykids).perform();
+		act.moveToElement(babykids).build().perform();
 		Thread.sleep(5000);
 		d.quit();
 	}

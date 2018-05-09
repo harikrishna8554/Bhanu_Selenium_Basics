@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_Advance_video.How_To_Handel_Dynamic_Table_In_Selenium_Video_1_2___3p">
+      <class name="naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1">
         <methods>
-          <include name="testHandel_Dynamic_Table_In_Selenium"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="fileUpload"/>
         </methods>
-      </class> <!-- selenium_Advance_video.How_To_Handel_Dynamic_Table_In_Selenium_Video_1_2___3p -->
+      </class> <!-- naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
