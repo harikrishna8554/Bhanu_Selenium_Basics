@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1">
+      <class name="selenium_Scripting_3.Assertion_In_Scripts_5">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="fileUpload"/>
+          <include name="testCreateLeads"/>
         </methods>
-      </class> <!-- naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1 -->
+      </class> <!-- selenium_Scripting_3.Assertion_In_Scripts_5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

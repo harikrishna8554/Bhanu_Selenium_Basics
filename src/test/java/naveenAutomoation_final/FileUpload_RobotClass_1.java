@@ -1,4 +1,4 @@
-package naveenAutomoation_final;
+=package naveenAutomoation_final;
 
 import java.awt.AWTException;
 import java.awt.Robot;

@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -14,10 +15,13 @@ public class Assertion_In_Scripts_5 {
 	@Test
 	public void testCreateLeads() throws Exception
 	{
-		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
-		d=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+		d=new ChromeDriver();
+		d.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		d.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		d.manage().window().maximize();
 		d.get("http://localhost:8888/");
+		
 		d.findElement(By.xpath("//input[@name='user_name' and @type='text']")).sendKeys("admin");
 		d.findElement(By.xpath("//input[@name='user_password' and @type='password']")).sendKeys("password");
 		d.findElement(By.id("submitButton")).click();

@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20297" started-at="2018-05-09T10:06:17Z" finished-at="2018-05-09T10:06:37Z">
+  <suite name="Default suite" duration-ms="59860" started-at="2018-05-31T09:50:40Z" finished-at="2018-05-31T09:51:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20297" started-at="2018-05-09T10:06:17Z" finished-at="2018-05-09T10:06:37Z">
-      <class name="naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1@1bce4f0a]" name="setUp" is-config="true" duration-ms="7052" started-at="2018-05-09T10:06:17Z" finished-at="2018-05-09T10:06:24Z">
+    <test name="Default test" duration-ms="59860" started-at="2018-05-31T09:50:40Z" finished-at="2018-05-31T09:51:40Z">
+      <class name="selenium_Scripting_3.Edit_Lead_Information_in_V_tiger_7">
+        <test-method status="PASS" signature="testEditData()[pri:0, instance:selenium_Scripting_3.Edit_Lead_Information_in_V_tiger_7@26653222]" name="testEditData" duration-ms="59834" started-at="2018-05-31T09:50:40Z" finished-at="2018-05-31T09:51:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="fileUpload()[pri:0, instance:naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1@1bce4f0a]" name="fileUpload" duration-ms="12822" started-at="2018-05-09T10:06:24Z" finished-at="2018-05-09T10:06:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fileUpload -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1@1bce4f0a]" name="tearDown" is-config="true" duration-ms="396" started-at="2018-05-09T10:06:37Z" finished-at="2018-05-09T10:06:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- naveenAutomoation_final.AutoIT_FileUpload_MukeshOtwani_1 -->
+        </test-method> <!-- testEditData -->
+      </class> <!-- selenium_Scripting_3.Edit_Lead_Information_in_V_tiger_7 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
