@@ -6,7 +6,7 @@ public class Login extends TestBase {
 	
 	@Test
 	public void testLogin()
-	{
+	{ 
 		System.out.println(OR.getProperty("browser")+"----login");
 		System.out.println(OR.getProperty("url"));
 		System.out.println(OR.getProperty("userName"));

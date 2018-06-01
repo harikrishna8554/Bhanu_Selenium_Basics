@@ -1,7 +1,10 @@
 package selenium_Basics_4;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -10,8 +13,11 @@ public class Delete_EmailBasedOn_SubjectLine_InSelenium_12 {
 	@Test
 	public void testDelete_EmailBasedOn_SubjectLine() throws Exception
 	{
-		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
-		d=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+		d=new ChromeDriver();
+		d.manage().window().maximize();
+		d.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		
 		d.get("https://www.sharklasers.com/");
 		

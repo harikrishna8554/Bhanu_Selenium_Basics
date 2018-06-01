@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class Logout extends TestBase{
 	@Test
 	public void testLogout()
-	{
+	{ 
 		System.out.println(OR.getProperty("browser")+"----logout");
 		System.out.println(OR.getProperty("url"));
 		System.out.println(OR.getProperty("userName"));

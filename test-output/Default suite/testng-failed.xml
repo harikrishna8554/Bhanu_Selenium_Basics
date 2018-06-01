@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_Scripting_3.Assertion_In_Scripts_5">
+      <class name="selenium_Basics_4.Page_Scrolling_InSelenium_14">
         <methods>
-          <include name="testCreateLeads"/>
+          <include name="testPage_Scrolling_InSelenium"/>
         </methods>
-      </class> <!-- selenium_Scripting_3.Assertion_In_Scripts_5 -->
+      </class> <!-- selenium_Basics_4.Page_Scrolling_InSelenium_14 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

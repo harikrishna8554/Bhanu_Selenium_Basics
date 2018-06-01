@@ -2,8 +2,11 @@ package selenium_Basics_4;
 
 import static org.testng.Assert.assertEquals;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -12,8 +15,11 @@ public class Verify_DisableObject_InSelenium_10 {
 	@Test
 	public void testDisableObject()
 	{
-		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
-		d=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+		d=new ChromeDriver();
+		d.manage().window().maximize();
+		d.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		
 		d.get("https://www.olx.in/bangalore/cars/q-swift/");
 		

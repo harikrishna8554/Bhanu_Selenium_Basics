@@ -17,7 +17,7 @@ public class TestBase {
 		 OR = new Properties();
 		 file = new File(System.getProperty("user.dir")+"\\src\\test\\java\\selenium_Basics_4\\properties_file_in_selenium_18\\config\\config.properties");
 		 fileReader = new FileReader(file);
-		 OR.load(fileReader);
+		 OR.load(fileReader); 
 		 
 		 file = new File(System.getProperty("user.dir")+"\\src\\test\\java\\selenium_Basics_4\\properties_file_in_selenium_18\\config\\or.properties");
 		 fileReader = new FileReader(file);

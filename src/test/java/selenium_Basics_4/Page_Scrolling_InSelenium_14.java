@@ -1,8 +1,11 @@
 package selenium_Basics_4;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -12,8 +15,11 @@ public class Page_Scrolling_InSelenium_14 {
 	@Test
 	public void testPage_Scrolling_InSelenium() throws Exception
 	{
-		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
-		d=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+		d=new ChromeDriver();
+		d.manage().window().maximize();
+		d.manage().timeouts().implicitlyWait(160, TimeUnit.SECONDS);
+		d.manage().timeouts().pageLoadTimeout(160, TimeUnit.SECONDS);
 		
 		d.get("http://automationpractice.com/index.php");
 		Thread.sleep(3000);

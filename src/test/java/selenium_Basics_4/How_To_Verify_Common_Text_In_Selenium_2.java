@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -18,10 +19,12 @@ public class How_To_Verify_Common_Text_In_Selenium_2 {
 	@Test
 	public void testVerify_Common_Text()
 	{
-		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
-		d=new FirefoxDriver();
-		d.get("https://www.hdfcbank.com/htdocs/nri_banking/payments/BillPay/BillPay.htm");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+		d=new ChromeDriver();
+		d.manage().window().maximize();
+		d.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		d.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+		d.get("https://www.hdfcbank.com/htdocs/nri_banking/payments/BillPay/BillPay.htm");
 		
 		ArrayList<String> expectedData=new ArrayList<String>();
 		expectedData.add("Features & Benefits");

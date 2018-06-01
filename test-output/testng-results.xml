@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Test Started:-testLogin]]>
+    </line>
+    <line>
+      <![CDATA[<a href='E:\Selenium\Selenium_Job\Bhanu_Selenium_Basics\src\main\java\screenShots\Test_success\testLogin_01_06_2018_02_09_03.png'> <img src='E:\Selenium\Selenium_Job\Bhanu_Selenium_Basics\src\main\java\screenShots\Test_success\testLogin_01_06_2018_02_09_03.png' width='100' height='100'/></a>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59860" started-at="2018-05-31T09:50:40Z" finished-at="2018-05-31T09:51:40Z">
+  <suite name="Listener Suite" duration-ms="120092" started-at="2018-06-01T08:37:13Z" finished-at="2018-06-01T08:39:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59860" started-at="2018-05-31T09:50:40Z" finished-at="2018-05-31T09:51:40Z">
-      <class name="selenium_Scripting_3.Edit_Lead_Information_in_V_tiger_7">
-        <test-method status="PASS" signature="testEditData()[pri:0, instance:selenium_Scripting_3.Edit_Lead_Information_in_V_tiger_7@26653222]" name="testEditData" duration-ms="59834" started-at="2018-05-31T09:50:40Z" finished-at="2018-05-31T09:51:40Z">
+    <test name="Test" duration-ms="120092" started-at="2018-06-01T08:37:13Z" finished-at="2018-06-01T08:39:13Z">
+      <class name="selenium_Basics_4.custom_Listener_InSelenium_19_TestCustomListener.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium_Basics_4.custom_Listener_InSelenium_19_TestCustomListener.Login@5c3bd550]" name="setUp" is-config="true" duration-ms="44980" started-at="2018-06-01T08:37:13Z" finished-at="2018-06-01T08:37:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEditData -->
-      </class> <!-- selenium_Scripting_3.Edit_Lead_Information_in_V_tiger_7 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:selenium_Basics_4.custom_Listener_InSelenium_19_TestCustomListener.Login@5c3bd550]" name="testLogin" duration-ms="65691" started-at="2018-06-01T08:37:58Z" finished-at="2018-06-01T08:39:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started:-testLogin]]>
+            </line>
+            <line>
+              <![CDATA[<a href='E:\Selenium\Selenium_Job\Bhanu_Selenium_Basics\src\main\java\screenShots\Test_success\testLogin_01_06_2018_02_09_03.png'> <img src='E:\Selenium\Selenium_Job\Bhanu_Selenium_Basics\src\main\java\screenShots\Test_success\testLogin_01_06_2018_02_09_03.png' width='100' height='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_Basics_4.custom_Listener_InSelenium_19_TestCustomListener.Login@5c3bd550]" name="tearDown" is-config="true" duration-ms="7193" started-at="2018-06-01T08:39:19Z" finished-at="2018-06-01T08:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_Basics_4.custom_Listener_InSelenium_19_TestCustomListener.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Listener Suite -->
 </testng-results>

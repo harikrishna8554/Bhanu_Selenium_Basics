@@ -1,5 +1,7 @@
 package selenium_Basics_4;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,6 +15,9 @@ public class ZoomIn_ZoomOut_InSelenium_15 {
 	{
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		d=new ChromeDriver();
+		d.manage().window().maximize();
+		d.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		
 		d.get("http://automationpractice.com/index.php");
 		Thread.sleep(3000);

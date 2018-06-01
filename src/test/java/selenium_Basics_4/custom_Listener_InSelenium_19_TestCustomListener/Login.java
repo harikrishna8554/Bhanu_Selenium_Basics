@@ -5,7 +5,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
 
-public class Login extends TestBase {
+public class Login extends TestBase { 
 	
 	@Test
 	public void testLogin()

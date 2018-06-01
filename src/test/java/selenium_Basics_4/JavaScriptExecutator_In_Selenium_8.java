@@ -1,8 +1,11 @@
 package selenium_Basics_4;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -14,13 +17,16 @@ public class JavaScriptExecutator_In_Selenium_8 {
 	{
 		if(System.getProperty("os.name").contains("Windows 10"))
 		{
-			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 		}
 		else if(System.getProperty("os.name").contains("mac os"))
 		{
 			System.setProperty("webdriver.firefox.marionette",System.getProperty("user.dir")+"\\drivers\\geckodriver");
 		}
-		d=new FirefoxDriver();	
+		d=new ChromeDriver();	
+		d.manage().window().maximize();
+		d.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
 	@Test
 	public void testJavaScriptExecutator() throws Exception
